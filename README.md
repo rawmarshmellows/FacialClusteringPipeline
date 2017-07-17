@@ -1,7 +1,10 @@
 # An attempt at an end to end pipeline for facial clustering
 
+[image1]: ./README-files/faces.png 
+
 ## Introduction
 This is an end to end pipeline for facial clustering of photos (similar to what Apple and Android has). Please look at `pipeline/Facial Clustering.ipynb` to see the current progress. 
+
 
 ## Method
 There are three main steps in creating an end to end pipeline for the facial clustering of images:
@@ -25,6 +28,10 @@ Assuming that you are using the [Anaconda](https://conda.io/docs/download.html) 
 5. Go into the `pipeline` folder and open Jupyter Notebook: `jupyter notebook`
 6. Open `Facial Clustering.ipynb`
 7. Hopefully you will be able to open it, if it doesn't work you can download the `Facial+Clustering.html` and read the notebook.
+
+## Results
+![alt text][image1]
+
 
 ## TODO:
 *  Use alignment technique described in [Face Search at Scale : 80 Million Gallery](https://arxiv.org/pdf/1507.07242.pdf) to speed up the clustering process
